@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavigationComponent } from './common/navigation/navigation.component';
 import { LocationComponent } from './model/location/location.component';
 import { EventComponent } from './model/event/event.component';
+import { EventsListComponent } from './page/events-list/events-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     LocationComponent,
-    EventComponent
+    EventComponent,
+    EventsListComponent
   ],
   imports: [
     BrowserModule,
