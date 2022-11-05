@@ -10,10 +10,10 @@
     </thead>
     <tbody>
       <tr *ngFor="let data of eventList">
-        <td>{{ data.name  }}</td>
-        <td>{{ data.date   }}</td>
-        <td>{{ data.time   }}</td>
-        <td>{{ data.location   }}</td>
+        <td class="p-2 m-3">{{ data.date  }}</td>
+        <td class="p-2 m-3">{{ data.time   }}</td>
+        <td class="p-2 m-3">{{ data.name  }}</td>
+        <td class="p-2 m-3">{{ data.location.address }} {{ data.location.city }} {{ data.location.country }}</td>
       </tr>
     </tbody>
   </div>
